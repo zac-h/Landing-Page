@@ -1,7 +1,11 @@
 body {
-    background-color: black;
+    background-color: #000000;
+    width: 1200px;
+    margin: auto;
+    
 }
 
+/*Header Section*/
 h1 {
     font-size: 24px;
     color: #f9faf8;
@@ -12,13 +16,14 @@ h2, h3 {
     font-size: 48px;
     font-weight: extra-bold;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 h2 {
     color: #f9faf8;
 }
 
-p, .header {
+.header-text {
     font-size: 18px;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +76,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 0;
 }
 
 .container1 {
@@ -79,7 +85,8 @@ button {
     width: 600px;
 }
 
-.container2 div {
+/* Information Section */
+.image-placeholder {
     background-color: white;
     height: 100px;
     width: 100px;
@@ -95,10 +102,85 @@ button {
 
 .container2 {
     display: flex;
-    
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .information {
     background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.information-block {
+    max-width: 100px;
+}
+
+/*Quote Section*/
+.quote {
+    background-color: #aebbd3;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author-text {
     display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*Sign-up Banner Section*/
+.sign-up-banner {
+    padding: 100px 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-banner-container {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-banner-container p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.sign-up-banner-text1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*Footer Section*/
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    margin: 0;
+    
 }
